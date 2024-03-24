@@ -19,7 +19,7 @@ bots = len(proxys)
 bots_str = str(bots)
 
 def si():
-    print(Colorate.Diagonal(Colors.yellow_to_red, "Welcome To Dragon DDoS Panel | User: root | Plan: VVIP | Proxy: " + bots_str + " | Happy To Use"))
+    print(Colorate.Diagonal(Colors.yellow_to_red, "Welcome To Dragon DDoS Panel | User: Juztin | Plan: VVIP | Proxy: " + bots_str + " | Happy To Use"))
     print("")
   
 def layer7():
@@ -41,7 +41,7 @@ TLS https://example.com 120         TLS URL TIME
 
 def menu():
     clear()
-    print(Colorate.Diagonal(Colors.yellow_to_red, "Welcome To Dragon DDoS Panel | User: root | Plan: VVIP | Proxy: " + bots_str + " | Happy To Use"))
+    print(Colorate.Diagonal(Colors.yellow_to_red, "Welcome To Dragon DDoS Panel | User: Juztin | Plan: VVIP | Proxy: " + bots_str + " | Happy To Use"))
     print("")
     banner = '''
         ⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣤⡼⠀⢀⡀⣀⢱⡄⡀⠀⠀⠀⢲⣤⣤⣤⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -67,7 +67,7 @@ Type Layer7 To See Layer7 Methods⠀⠀⠀⠀⠀
 def main():
     menu()
     while(True):
-        cnc = input(Colorate.Diagonal(Colors.yellow_to_red, "root@DragonC2#~"))
+        cnc = input(Colorate.Diagonal(Colors.yellow_to_red, "root@juztin#~"))
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             layer7()
         elif cnc == "clear" or cnc == "CLEAR" or cnc == "CLS" or cnc == "cls":
@@ -162,16 +162,16 @@ CLEAR - CLEAR TERMINAL
 
 def login():
     clear()
-    user = "user"
-    passwd = "user"
+    user = "juztin"
+    passwd = "root"
     username = input("</> Username: ")
     password = getpass.getpass(prompt='</> Password: ')
     if username != user or password != passwd:
         print("")
-        print("Password/Username Salah")        
+        print("Password/Username Incorrect")        
         sys.exit(1)
     elif username == user and password == passwd:
-        print("Welcome To Dragon DDoS Panel")
+        print("Welcome To XSOS DDoS Panel")
         time.sleep(0.3)
         main()
 login()
