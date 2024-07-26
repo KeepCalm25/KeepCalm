@@ -1,0 +1,4 @@
+pip install pystyle
+npm i user-agents
+npm i header-generator
+npm i axios
